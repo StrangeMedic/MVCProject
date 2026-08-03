@@ -1,0 +1,28 @@
+﻿@model App;
+
+<hl>Application</hl>
+
+<form method="post">
+    <label asp-for="firstName">First Name:</label>
+    <input asp-for="firstName"/>
+    <br />
+    <lable asp-for="lastName">Last Name:</lable>
+    <input asp-for="lastName"/>
+    <br />
+    <label asp-for="age">Age:</label>
+    <input asp-for="age"/>
+    <br />
+    <lable asp-for="phoneNumber">Phone:</lable>
+    <input asp-for="phoneNumber"/>
+    <br />
+    <label asp-for="major">Major:</label>
+    <input asp-for="major"/>
+    <br />
+    <label asp-for="likesXP">Did you like my Windows XP wallpaper?</label>
+    <select asp-for="likesXP">
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+    </select>
+    <br />
+    <button type="submit">Submit</button>
+</form>
