@@ -18,7 +18,7 @@ namespace MVCProject.Controllers
         }
 
         [HttpPost]
-        public IActionResult FillOutApplication(App response)
+        public IActionResult FillOutApplication(Application response)
         {
             return View("Confirm", response);
         }
